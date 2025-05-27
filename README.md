@@ -1,5 +1,5 @@
 
-# Network File Transfer with Streamlit UI
+# File Transfer with Streamlit UI
 
 ## Overview
 
@@ -55,7 +55,7 @@ This project implements a client-server application for transferring files over 
 3.  **Start the Server**:
     Open a terminal, navigate to the `file_transfer_project` directory (or the directory containing `server_app`), and run:
     ```bash
-    python server_app/server.py
+    python run_server.py
     ```
     By default, the server will start listening on `127.0.0.1:65432`. You can modify host/port in `common/protocol.py`.
 
